@@ -36,6 +36,13 @@
     align-items: center;
     justify-content: center;
 }
+.Github a{
+    text-decoration: none;
+    color: #020c5f;
+}
+.Github a:hover{
+    color: #787b94;
+}
 .Display-picture {
   width: 80%;
   border-radius: 50%;
