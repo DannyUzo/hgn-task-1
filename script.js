@@ -4,4 +4,4 @@ function UTCinMiliseconds() {
     utcTimeElement.innerHTML = currentTime;
 } 
 window.onload = UTCinMiliseconds;
-setInterval(UTCinMiliseconds, 1000)
+setInterval(UTCinMiliseconds, 100)

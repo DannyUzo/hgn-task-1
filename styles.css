@@ -105,7 +105,7 @@
 .Current {
   width: 35%;
   border-radius: 10px;
-  background-color: rgba(242, 242, 242, 0.7);
+  background-color: rgba(236, 236, 236, 0.5);
   backdrop-filter: blur(20px);
   display: flex;
   flex-direction: column;
