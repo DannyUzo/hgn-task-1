@@ -3,5 +3,5 @@ function UTCinMiliseconds() {
     const utcTimeElement = document.getElementById("UTCtime");
     utcTimeElement.innerHTML = currentTime;
 } 
-window.onload = UTCinMiliseconds;
+
 setInterval(UTCinMiliseconds, 100)
