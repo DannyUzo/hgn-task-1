@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Task 1</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="username">
+        <h1 data-testid="slackUserName">Daniel Uzodinma</h1>
+      </div>
+      <div data-testid="“githubURL”" class="Github">
+        <p>Github URL</p>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="div1">
+        <div class="Display-picture">
+          <img
+            src="./images/My_logo.png"
+            alt="Danny"
+            id="logo"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+        <div data-testid="myTrack" class="track">
+          <p>FRONTEND-TRACK</p>
+        </div>
+      </div>
+      <div class="Current">
+        <div data-testid="currentDayOfTheWeek" class="day-of-the-week">
+          <p>Day of the week: <span>Thursday</span></p>
+        </div>
+        <div data-testid="currentUTCTime" class="Current-time">
+          <p>Current UTC time: <span id="UTCtime"></span></p>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

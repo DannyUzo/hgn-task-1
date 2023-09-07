@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #020c5f;
+  font-family: Tahoma;
+  border-bottom: 2px solid #0012b1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  justify-content: space-evenly;
+}
+.div1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.Github{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Display-picture {
+  width: 80%;
+  border-radius: 50%;
+  border: 2px solid #020c5f;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0.5px 0.5px 5px #959595;
+}
+#logo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.track {
+  width: fit-content;
+  position: relative;
+  background-color: #020c5f;
+  color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+  animation: My_Hover ease-in-out infinite 1s;
+}
+@keyframes My_Hover {
+  0% {
+    background-color: #787b94;
+    margin-top: 0px;
+  }
+  20% {
+    background-color: #787b94;
+    margin-top: 1px;
+  }
+  40% {
+    background-color: #787b94;
+    margin-top: 2px;
+  }
+  60% {
+    background-color: #787b94;
+    margin-top: 2px;
+  }
+  80% {
+    background-color: #787b94;
+    margin-top: 1px;
+  }
+  100% {
+    background-color: #787b94;
+    margin-top: 0px;
+  }
+}
+.Current {
+  width: 35%;
+  border-radius: 10px;
+  background-color: rgba(242, 242, 242, 0.7);
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.day-of-the-week {
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-family: Tahoma;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #c7c8d1;
+}
+.Current-time {
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-family: Tahoma;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #c7c8d1;
+}
+span {
+  font-size: large;
+  font-weight: 600;
+  color: #ffffff;
+  float: right;
+}
+@media (max-width: 768px) {
+  .div1 {
+    width: 60%;
+    gap: 20px;
+  }
+  .Current {
+    position: relative;
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 468px) {
+  .div1 {
+    width: 70%;
+  }
+  .Current {
+    position: relative;
+    width: 90%;
+    margin-top: 30px;
+  }
+}
